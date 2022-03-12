@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA5A4F4627DC180200619514 /* CommentNetworkServiceCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A4F4527DC180200619514 /* CommentNetworkServiceCreate.swift */; };
 		FA5A4F4827DC1EAC00619514 /* GetCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A4F4727DC1EAC00619514 /* GetCommentResponse.swift */; };
+		FA5A4F4B27DC20FE00619514 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A4F4A27DC20FE00619514 /* NetworkError.swift */; };
 		FA93AAB127D36E40008D1227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93AAB027D36E40008D1227 /* AppDelegate.swift */; };
 		FA93AAB327D36E40008D1227 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93AAB227D36E40008D1227 /* SceneDelegate.swift */; };
 		FA93AAB527D36E40008D1227 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93AAB427D36E40008D1227 /* CommentsViewController.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		FA5A4F4527DC180200619514 /* CommentNetworkServiceCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentNetworkServiceCreate.swift; sourceTree = "<group>"; };
 		FA5A4F4727DC1EAC00619514 /* GetCommentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentResponse.swift; sourceTree = "<group>"; };
+		FA5A4F4A27DC20FE00619514 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		FA93AAAD27D36E40008D1227 /* ReminderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReminderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA93AAB027D36E40008D1227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA93AAB227D36E40008D1227 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 			path = CommentNetworkService;
 			sourceTree = "<group>";
 		};
+		FA5A4F4927DC206100619514 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A4F4727DC1EAC00619514 /* GetCommentResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
 		FA93AAA427D36E40008D1227 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +96,7 @@
 		FABF53AB27DB86F80022EEEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FA5A4F4A27DC20FE00619514 /* NetworkError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,8 +160,8 @@
 		FABF53B427DB948B0022EEEB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FA5A4F4927DC206100619514 /* Responses */,
 				FABF53B827DBEAC20022EEEB /* Comment.swift */,
-				FA5A4F4727DC1EAC00619514 /* GetCommentResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -253,6 +264,7 @@
 				FA93AABB27D36E40008D1227 /* ReminderApp.xcdatamodeld in Sources */,
 				FABF53BC27DBF3EC0022EEEB /* NetworkService.swift in Sources */,
 				FA5A4F4827DC1EAC00619514 /* GetCommentResponse.swift in Sources */,
+				FA5A4F4B27DC20FE00619514 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

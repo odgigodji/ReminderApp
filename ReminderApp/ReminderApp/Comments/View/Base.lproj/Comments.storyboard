@@ -77,6 +77,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1xU-ir-ykN" secondAttribute="trailing" id="zzk-K4-M5T"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="1xU-ir-ykN" id="mZv-D7-YDm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
