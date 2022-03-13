@@ -53,6 +53,7 @@
                                                 <constraint firstItem="7JZ-Fh-QzT" firstAttribute="top" secondItem="GF1-O9-9bu" secondAttribute="bottom" id="FcP-7J-dd9"/>
                                                 <constraint firstItem="GF1-O9-9bu" firstAttribute="leading" secondItem="laD-M8-KIF" secondAttribute="leadingMargin" id="QL3-Au-rP1"/>
                                                 <constraint firstItem="7JZ-Fh-QzT" firstAttribute="leading" secondItem="laD-M8-KIF" secondAttribute="leading" id="TJz-eq-rFw"/>
+                                                <constraint firstItem="GF1-O9-9bu" firstAttribute="leading" secondItem="laD-M8-KIF" secondAttribute="leadingMargin" id="g26-98-mM1"/>
                                                 <constraint firstItem="GF1-O9-9bu" firstAttribute="trailing" secondItem="laD-M8-KIF" secondAttribute="trailingMargin" id="mS2-cu-Z1x"/>
                                             </constraints>
                                         </tableViewCellContentView>

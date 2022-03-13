@@ -10,7 +10,7 @@ import Foundation
 class CommentNetworkService {
     private init() {}
     static func getComments(completion: @escaping(GetCommentResponse) -> ()) {
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts/1/comments") else {
+        guard let url = URL(string: "https://jsonplaceholder.typicode.com/comments") else {
             return
         }
         NetworkService.shared.getData(url: url) { (json) in
